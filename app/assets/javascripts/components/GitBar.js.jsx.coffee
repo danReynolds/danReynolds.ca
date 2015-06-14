@@ -1,6 +1,3 @@
 @GitBar = React.createClass
   render: ->
-    `<div className='Dan'>what</div>`
-
-  componentDidMount: ->
-    console.log "hey"
+    `<div className='Dan'>Welcome, I'm Dan</div>`

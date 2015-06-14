@@ -1,17 +1,19 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.2.1'
-gem 'slim-rails'
-gem 'sqlite3'
-gem 'sass-rails', '~> 5.0'
-gem 'uglifier', '>= 1.3.0'
+gem 'bourbon'
 gem 'coffee-rails', '~> 4.1.0'
-gem 'jquery-rails'
-gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
+gem 'jquery-rails'
+gem 'neat'
+gem 'rails', '4.2.1'
 gem 'react-rails'
-gem 'showdown-rails'
+gem 'sass-rails', '~> 5.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
+gem 'showdown-rails'
+gem 'slim-rails', '~> 3.0'
+gem 'sqlite3'
+gem 'turbolinks'
+gem 'uglifier', '>= 1.3.0'
 
 group :development, :test do
   gem 'byebug'
@@ -19,4 +21,3 @@ group :development, :test do
   gem 'spring'
   gem 'better_errors'
 end
-
