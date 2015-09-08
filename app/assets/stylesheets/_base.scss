@@ -3,8 +3,8 @@ $text-family: 'Varela Round', sans-serif;
 $font-weight: 100;
 
 body {
-  margin: 0;
   background: $tan;
   font-family: $header-family;
-  font-weight: $font-weight
+  font-weight: $font-weight;
+  margin: 1rem;
 }

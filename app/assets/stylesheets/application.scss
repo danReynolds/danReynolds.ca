@@ -3,6 +3,8 @@
 @import 'neat';
 
 // Application CSS
-@import 'colors';
+@import 'variables';
+@import 'mixins';
 @import 'base';
 @import 'nav';
+@import 'container';

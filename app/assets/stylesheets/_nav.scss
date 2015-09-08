@@ -1,0 +1,22 @@
+.navigation {
+  $nav-text-color: $white;
+  $nav-link-color: $red;
+
+  nav {
+    @include outer-container($content-width);
+
+    background-color: $nav-text-color;
+    border-radius: 2px;
+    margin-top: 1rem;
+    padding: 1rem;
+  }
+
+  a {
+    @include span-columns(4);
+
+    color: $red;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+  }
+}
