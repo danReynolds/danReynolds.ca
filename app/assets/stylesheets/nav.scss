@@ -1,0 +1,15 @@
+.navigation {
+  nav {
+    @include outer-container($content-width);
+
+    border-radius: 2px;
+    height: 3rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  a {
+    margin: 0 1rem;
+  }
+}

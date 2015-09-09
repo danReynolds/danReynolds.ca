@@ -1,0 +1,11 @@
+a {
+  $link-color: $gray;
+  $link-decoration-color: $gray;
+
+  color: $link-color;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+
+  &:hover { border-bottom: 1px solid $link-decoration-color; }
+}
