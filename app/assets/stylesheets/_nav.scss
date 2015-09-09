@@ -1,6 +1,6 @@
 .navigation {
   $nav-text-color: $white;
-  $nav-link-color: $red;
+  $nav-link-color: $gray;
 
   nav {
     @include outer-container($content-width);
@@ -14,7 +14,7 @@
   a {
     @include span-columns(4);
 
-    color: $red;
+    color: $nav-link-color;
     display: inline-block;
     text-align: center;
     text-decoration: none;
