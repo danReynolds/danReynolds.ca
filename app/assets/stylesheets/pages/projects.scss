@@ -1,0 +1,54 @@
+.projects {
+  .project {
+    $project-background-color: #F6F6F6;
+    $project-border-radius: 3px;
+    $project-hover-opacity: 0.8;
+
+    @include span-columns(4);
+    @include omega(3n);
+
+    @include media($mobile) {
+      @include span-columns(12);
+    }
+
+    @include media($tablet) {
+      @include span-columns(6);
+      @include omega(2n);
+    }
+
+    background-color: $project-background-color;
+    box-shadow: 0 1px 2px darken($project-background-color, 20%);
+    border-radius: $project-border-radius;
+    margin-bottom: 1.5rem;
+
+    &:hover, &:focus {
+      cursor: pointer;
+
+      img {
+        opacity: $project-hover-opacity;
+      }
+    }
+  }
+
+  .content {
+    padding: 0 0.6rem;
+  }
+
+  .name {
+    $project-divider-color: $light-gray;
+
+    border-bottom: 1px solid $project-divider-color;
+
+    h3 { margin: 0.75rem 0; }
+  }
+
+  img {
+    $background-fill-color: #4B4B4B;
+
+    @include transition (all 0.2s ease-in-out);
+
+    background: $background-fill-color;
+    height: 178px;
+    width: 100%;
+  }
+}
