@@ -10,14 +10,6 @@
   }
 
   a {
-    $link-border-color: $gray;
-
     margin: 0 1rem;
-
-    &.active,
-    &:hover,
-    &:focus {
-      border-bottom: 1px solid $link-border-color;
-    }
   }
 }
