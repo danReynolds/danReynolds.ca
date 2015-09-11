@@ -10,7 +10,6 @@ gem 'sass-rails', '~> 5.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'showdown-rails'
 gem 'slim-rails', '~> 3.0'
-gem 'sqlite3'
 gem 'turbolinks'
 gem 'uglifier', '>= 1.3.0'
 gem 'therubyracer', :platforms => :ruby
