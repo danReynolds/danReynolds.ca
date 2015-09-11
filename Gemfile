@@ -14,6 +14,7 @@ gem 'activerecord-nulldb-adapter'
 gem 'turbolinks'
 gem 'uglifier', '>= 1.3.0'
 gem 'therubyracer', :platforms => :ruby
+gem 'dotenv-rails'
 gem 'puma'
 
 group :development do
