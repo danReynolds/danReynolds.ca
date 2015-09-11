@@ -2,7 +2,7 @@
 server '104.236.110.239', port: 80, roles: [:web, :app, :db], primary: true
 
 set :repo_url,        'git@github.com:danReynolds/danReynolds.ca.git'
-set :application,     'danReynolds.ca'
+set :application,     'danReynolds'
 set :user,            'deploy'
 set :puma_threads,    [4, 16]
 set :puma_workers,    0
