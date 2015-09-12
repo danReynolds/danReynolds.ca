@@ -1,4 +1,8 @@
 .projects {
+  a:after {
+    border-bottom: none;
+  }
+
   .project {
     $project-background-color: #F6F6F6;
     $project-border-radius: 3px;
