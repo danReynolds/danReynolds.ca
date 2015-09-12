@@ -2,7 +2,7 @@
   section
     - @projects.each do |project|
       = render partial: 'pages/project',
-        locals: { logo: project[:logo], name: project[:name], summary: project[:summary] }
+        locals: { post: project[:post], logo: project[:logo], name: project[:name], summary: project[:summary] }
 
     
   

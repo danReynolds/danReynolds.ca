@@ -1,8 +1,9 @@
 .project
-  .logo
-    = image_tag logo
-  .content
-    .name
-      h3=name
-    .summary
-      p=summary
+  = link_to post do
+    .logo
+      = image_tag logo
+    .content
+      .name
+        h3=name
+      .summary
+        p=summary

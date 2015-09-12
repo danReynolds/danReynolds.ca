@@ -7,7 +7,8 @@ class PagesController < ApplicationController
       {
         logo: 'projects/supermarkit.png',
         name: 'SupermarKit',
-        summary: 'A community-driven grocery planning and tracking web application.'
+        summary: 'A community-driven grocery planning and tracking web application.',
+        post: 'http://blog.danreynolds.ca/SupermarKit'
       },
       {
         logo: 'projects/rust.svg',
