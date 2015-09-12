@@ -1,7 +1,4 @@
 .projects {
-  a:after {
-    border-bottom: none;
-  }
 
   .project {
     $project-background-color: #F6F6F6;
@@ -24,6 +21,10 @@
     box-shadow: 0 1px 2px darken($project-background-color, 20%);
     border-radius: $project-border-radius;
     margin-bottom: 1.5rem;
+
+    a:after {
+      border-bottom: none;
+    }
 
     &:hover, &:focus {
       cursor: pointer;
