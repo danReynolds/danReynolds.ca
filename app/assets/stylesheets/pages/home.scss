@@ -5,9 +5,8 @@
   }
 
   section {
-    $section-green-color: $green;
-    $section-red-color: $red;
-    $section-orange-color: $orange;
+    $section-blue-color: $blue;
+    $section-gray-color: $gray;
     $background-lighten: 6;
 
     @include row();
@@ -15,18 +14,15 @@
     margin: 1rem 0;
 
     &:nth-child(1) {
-      // background-color: lighten($section-green-color, 10);
-      border-left: 5px solid $section-green-color;
+      border-left: 5px solid $section-gray-color;
     }
 
     &:nth-child(2) {
-      // background-color: lighten($section-red-color, $background-lighten);
-      border-left: 5px solid $section-red-color;
+      border-left: 5px solid $section-blue-color;
     }
 
     &:nth-child(3) {
-      // background-color: lighten($section-orange-color, $background-lighten);
-      border-left: 5px solid $section-orange-color;
+      border-left: 5px solid $section-gray-color;
     }
   }
 
