@@ -1,7 +1,7 @@
 .home {
   p {
     margin: 0 2rem;
-    padding: 2rem 0 2rem 0;
+    padding: 1rem 0;
   }
 
   section {
@@ -11,7 +11,7 @@
 
     @include row();
 
-    margin: 1rem 0;
+    margin: 2rem 0;
 
     &:nth-child(1) {
       border-left: 5px solid $section-gray-color;
