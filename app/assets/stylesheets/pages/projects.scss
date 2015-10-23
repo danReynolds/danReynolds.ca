@@ -1,12 +1,13 @@
 .projects {
-
   .project {
     $project-background-color: #F6F6F6;
     $project-border-radius: 3px;
     $project-hover-opacity: 0.8;
 
-    @include span-columns(4);
-    @include omega(3n);
+    @include media($desktop) {
+      @include span-columns(4);
+      @include omega(3n);
+    }
 
     @include media($mobile) {
       @include span-columns(12);
