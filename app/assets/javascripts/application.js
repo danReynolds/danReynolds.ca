@@ -18,3 +18,4 @@
 
 // Application files
 //= require nav
+//= require birthday
