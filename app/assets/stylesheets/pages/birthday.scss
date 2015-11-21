@@ -1,0 +1,20 @@
+.pages.birthday {
+  canvas, .container {
+    z-index: 5;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    margin: 0 auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    &.container {
+      z-index: 10;
+      position: relative;
+    }
+  }
+  video {
+    z-index: 1000;
+  }
+}
