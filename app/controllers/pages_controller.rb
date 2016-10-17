@@ -7,23 +7,26 @@ class PagesController < ApplicationController
       {
         logo: 'projects/supermarkit.png',
         name: 'SupermarKit',
-        summary: 'A community-driven grocery planning and tracking web application.',
-        post: 'http://blog.danreynolds.ca/SupermarKit'
+        summary: 'Creator of the grocery planning and tracking web application.',
+        timeline: '2014 - present'
       },
       {
-        logo: 'projects/rust.svg',
-        name: 'Splash',
-        summary: 'A shell written in the Rust systems programming language.'
+        logo: 'projects/nerdwallet.png',
+        name: 'Nerdwallet',
+        summary: 'Software engineer for mobile and web applications.',
+        timeline: '2014 - present'
+      },
+      {
+        logo: 'projects/zazzle.jpg',
+        name: 'Zazzle',
+        summary: 'Software engineer working on Zazzle web products.',
+        timeline: 'Jan - May, 2016'
       },
       {
         logo: 'projects/boltmade.png',
         name: 'Boltmade',
-        summary: 'My highlights working on projects and making software at Boltmade.'
-      },
-      {
-        logo: 'projects/raspberry.jpg',
-        name: 'Media player',
-        summary: 'My ongoing mission to make my house the computer from Star Trek.'
+        summary: 'Web developer at a software and design consultant firm.',
+        timeline: '2013 - 2015'
       }
     ]
   end
