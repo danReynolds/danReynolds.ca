@@ -1,9 +1,10 @@
 .project
-  = link_to post do
+  = link_to project[:post] do
     .logo
-      = image_tag logo
+      = image_tag project[:logo]
     .content
-      .name
-        h3=name
+      .header
+        h3=project[:name]
+        .timeline=project[:timeline]
       .summary
-        p=summary
+        p=project[:summary]

@@ -40,12 +40,14 @@
     padding: 0 0.6rem;
   }
 
-  .name {
+  .header {
     $project-divider-color: $light-gray;
-
     border-bottom: 1px solid $project-divider-color;
+    display: flex;
+    align-items: center;
 
     h3 { margin: 0.75rem 0; }
+    .timeline { margin-left: auto; }
   }
 
   img {

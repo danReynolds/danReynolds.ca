@@ -1,8 +1,7 @@
 .container
   section
     - @projects.each do |project|
-      = render partial: 'pages/project',
-        locals: { post: project[:post], logo: project[:logo], name: project[:name], summary: project[:summary] }
+      = render partial: 'pages/project', locals: { project: project }
 
     
   
