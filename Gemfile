@@ -16,6 +16,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'therubyracer', :platforms => :ruby
 gem 'dotenv-rails'
 gem 'puma'
+gem 'sshkit', '~> 1.13.0'
 
 group :development do
     gem 'capistrano',         require: false
