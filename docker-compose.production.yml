@@ -5,7 +5,7 @@ services:
       - ./.env:/app/.env
       - assets:/app/public/assets/
       - logs:/app/log/
-    image: danreynolds/danReynolds.ca:$DEPLOY_TAG
+    image: danreynolds/danreynolds.ca:$DEPLOY_TAG
     environment:
       - DEPLOY_TAG=$DEPLOY_TAG
   nginx:
