@@ -7,6 +7,7 @@ services:
       - logs:/app/log/
     image: danreynolds/danreynolds.ca:$DEPLOY_TAG
     environment:
+      - ENV_KEY=$ENV_KEY
       - DEPLOY_TAG=$DEPLOY_TAG
   nginx:
     ports:
