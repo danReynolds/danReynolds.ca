@@ -68,7 +68,7 @@ namespace :docker do
       within deploy_path do
         with rails_env: deploy_env, deploy_tag: deploy_tag do
           execute 'docker-compose', '-f', 'docker-compose.yml', '-f', 'docker-compose.production.yml', 'down'
-          execute 'docker', 'volume', 'rm', 'danreynolds.ca_assets'
+          execute 'docker', 'volume', 'rm', 'danreynoldsca_assets'
         end
       end
     end
