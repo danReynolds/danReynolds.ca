@@ -3,7 +3,7 @@ class PagesController < ApplicationController
   end
 
   def letsencrypt
-    render text: 'zFbsid1eDxwzWk7tbf9qfq8bqIqN-2p56MquHZXb0ME.s20dhHv_2FQ191o8TybEHfK4j_N_p5wnIqM5QNARYus'
+    render text: '9SYoW5TfXgHnrhWwsTt3izDoXk9aTGOM1Y0QMetoDCk.s20dhHv_2FQ191o8TybEHfK4j_N_p5wnIqM5QNARYus'
   end
 
   def projects
