@@ -2,10 +2,6 @@ class PagesController < ApplicationController
   def home
   end
 
-  def letsencrypt
-    render text: 'ecBG5GVv6oL-4kgkAhprioNwVrIdCnl3CabOOBJ6vzg.s20dhHv_2FQ191o8TybEHfK4j_N_p5wnIqM5QNARYus'
-  end
-
   def projects
     @projects = [
       {
