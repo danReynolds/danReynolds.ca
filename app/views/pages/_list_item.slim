@@ -1,0 +1,10 @@
+.list-item
+  = link_to item[:link], target: '_blank' do
+    .logo
+      = image_tag item[:logo]
+    .content
+      .header
+        h3=item[:name]
+        .timeline=item[:timeline]
+      .summary
+        p=item[:summary]

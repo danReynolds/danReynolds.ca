@@ -1,0 +1,7 @@
+.container
+  section.list-group
+    - @works.each do |work_entry|
+      = render partial: 'pages/list_item', locals: { item: work_entry }
+
+    
+  

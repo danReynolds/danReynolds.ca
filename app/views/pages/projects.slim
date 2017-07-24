@@ -1,7 +1,7 @@
 .container
-  section
+  section.list-group
     - @projects.each do |project|
-      = render partial: 'pages/project', locals: { project: project }
+      = render partial: 'pages/list_item', locals: { item: project }
 
     
   
