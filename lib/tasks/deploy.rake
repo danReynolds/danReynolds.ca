@@ -74,17 +74,6 @@ namespace :docker do
     end
   end
 
-  desc 'runs database migrations in application container via Docker Compose'
-  task migrate: 'deploy:configs' do
-    on server do
-      within deploy_path do
-        with rails_env: deploy_env, deploy_tag: deploy_tag do
-          execute 'docker-compose', '-f', 'docker-compose.yml', '-f', 'docker-compose.production.yml','run', 'app', 'bundle', 'exec', 'rake', 'db:migrate'
-        end
-      end
-    end
-  end
-
   desc 'starts all Docker containers via Docker Compose'
   task start: 'deploy:configs' do
     on server do
@@ -101,5 +90,5 @@ namespace :docker do
   end
 
   desc 'pulls images, stops old containers, updates the database, and starts new containers'
-  task deploy: %w{docker:pull docker:decrypt docker:stop docker:migrate docker:start} # pull images manually to reduce down time
+  task deploy: %w{docker:pull docker:decrypt docker:stop docker:start} # pull images manually to reduce down time
 end
