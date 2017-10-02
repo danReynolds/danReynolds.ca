@@ -7,14 +7,14 @@ class PagesController < ApplicationController
       {
         logo: 'projects/nerdwallet.png',
         name: 'Nerdwallet',
-        summary: 'Software engineer for mobile and web applications.',
+        summary: 'Software engineer on the mobile team.',
         timeline: '2014 - present',
         link: 'https://nerdwallet.com'
       },
       {
         logo: 'projects/zazzle.jpg',
         name: 'Zazzle',
-        summary: 'Software engineer working on Zazzle web products.',
+        summary: 'Front-end software engineer for the Zazzle website.',
         timeline: 'Jan - May, 2016',
         link: 'https://zazzle.com'
       },
@@ -31,7 +31,7 @@ class PagesController < ApplicationController
   def projects
     @projects = [
       {
-        logo: 'projects/summonerexpert.jpg',
+        logo: 'projects/summoner-expert.svg',
         name: 'Summoner Expert',
         summary: 'AI Assistant for information on League of Legends.',
         timeline: '2017 - present',

@@ -41,7 +41,7 @@
   }
 
   .header {
-    $project-divider-color: $light-gray;
+    $project-divider-color: $white;
     border-bottom: 1px solid $project-divider-color;
     display: flex;
     align-items: center;
@@ -51,7 +51,7 @@
   }
 
   img {
-    $background-fill-color: #4B4B4B;
+    $background-fill-color: $white;
 
     @include transition (all 0.2s ease-in-out);
 
